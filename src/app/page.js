@@ -1,10 +1,10 @@
-import ButtonsSections from "@/components/ButtonsSections/ButtonsSections";
+import ButtonsSections from "@/components/TopSection/ButtonsSections/ButtonsSections";
 import "./page.css";
-import ResumePage from "@/components/CuadroDatos/resumePage";
-import ResumenPedido from "@/components/resumenPedido/resumenPedido";
-import LeftBottomSection from "@/components/LeftBottomSection/leftBottomSection";
-import ImagenSection from "@/components/Imagenes/imagenSection";
-import ImagenEjemplo from "@/components/ImagenesEjemplo/ImagenesEjemplo";
+import ResumePage from "@/components/CenterSection/CuadroDatos/resumePage";
+import ResumenPedido from "@/components/CenterSection/resumenPedido/resumenPedido";
+import LeftBottomSection from "@/components/BottomSection/LeftBottomSection/leftBottomSection";
+import ImagenSection from "@/components/BottomSection/Imagenes/imagenSection";
+import ImagenEjemplo from "@/components/BottomSection/ImagenesEjemplo/ImagenesEjemplo";
 
 
 export default function Home() {
