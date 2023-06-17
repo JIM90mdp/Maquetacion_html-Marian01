@@ -5,20 +5,20 @@ import ResumenPedido from "@/components/CenterSection/resumenPedido/resumenPedid
 import LeftBottomSection from "@/components/BottomSection/LeftBottomSection/leftBottomSection";
 import ImagenSection from "@/components/BottomSection/Imagenes/imagenSection";
 import ImagenEjemplo from "@/components/BottomSection/ImagenesEjemplo/ImagenesEjemplo";
-import ResumenContent from "@/components/CenterSection/CuadroDatos/resumenContent";
-import EnCorreccion from "@/components/TopSection/ButtonsSections/EnCorreccion";
+import ClienteContent from "@/components/CenterSection/CuadroDatos/clienteContent";
+import ALaEspera from "@/components/TopSection/ButtonsSections/ALaEspera";
 
-const content = ResumenContent();
-const dinamicBotton = EnCorreccion();
+const content = ClienteContent();
+const dinamicBotton = ALaEspera();
 
-export default function Page4() {
+export default function Page5() {
   return (
     <div class="page4">
       <div class="button-section">
-        <ButtonsSections dinamicBotton={dinamicBotton}/>
+        <ButtonsSections dinamicBotton={dinamicBotton} />
       </div>
       <div class="top-section">
-        <ResumePage content={content}/>
+        <ResumePage content={content} />
         <ResumenPedido />
       </div>
       <div class="bottom-section">

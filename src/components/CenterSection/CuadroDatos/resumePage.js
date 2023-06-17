@@ -1,7 +1,7 @@
 import React from "react";
 import ResumenContent from "./resumenContent";
 
-const ResumePage = () => {
+const ResumePage = ({content}) => {
   return (
     <div class="page4-container">
       <div class="bullet-points">
@@ -13,7 +13,8 @@ const ResumePage = () => {
         <div class="bullet-point">Archivo</div>
       </div>
       <div class="content">
-        <ResumenContent />
+        {content}
+        {/* <ResumenContent /> */}
       </div>
     </div>
   );

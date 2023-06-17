@@ -1,7 +1,7 @@
 import Button from "@/components/Button/Button";
 import React from "react";
 
-const ButtonsSections = () => {
+const ButtonsSections = ({ dinamicBotton }) => {
   return (
     <div class="button_section-container">
       <div>
@@ -19,16 +19,7 @@ const ButtonsSections = () => {
             fontSize: "small",
           }}
         ></input>
-        <Button
-          propsStyles={{
-            color: "white",
-            backgroundColor: "red",
-            border: "none",
-            fontSize: "small",
-          }}
-        >
-          En corrección
-        </Button>
+        {dinamicBotton}
       </div>
       <div>
         <Button
