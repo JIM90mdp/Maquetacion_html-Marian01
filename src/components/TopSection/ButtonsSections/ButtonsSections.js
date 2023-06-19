@@ -1,7 +1,7 @@
 import Button from "@/components/Button/Button";
 import React from "react";
 
-const ButtonsSections = ({ dinamicBotton }) => {
+const ButtonsSections = ({ dynamicBotton }) => {
   return (
     <div class="button_section-container">
       <div>
@@ -19,7 +19,7 @@ const ButtonsSections = ({ dinamicBotton }) => {
             fontSize: "small",
           }}
         ></input>
-        {dinamicBotton}
+        {dynamicBotton}
       </div>
       <div>
         <Button
