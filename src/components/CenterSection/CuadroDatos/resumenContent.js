@@ -4,7 +4,7 @@ import Button from "../../Button/Button";
 
 const ResumenContent = () => {
   return (
-    <div class="resumen_content-container">
+    <div class="tab-content">
       <div class="column">
         <input type="text" placeholder="Nombre del lote..." />
         <h2>Protocolo</h2>

@@ -5,18 +5,18 @@ import ResumenPedido from "@/components/CenterSection/resumenPedido/resumenPedid
 import LeftBottomSection from "@/components/BottomSection/LeftBottomSection/leftBottomSection";
 import ImagenSection from "@/components/BottomSection/Imagenes/imagenSection";
 import ImagenEjemplo from "@/components/BottomSection/ImagenesEjemplo/ImagenesEjemplo";
-import ClienteContent from "@/components/CenterSection/CuadroDatos/clienteContent";
-import ALaEspera from "@/components/TopSection/ButtonsSections/ALaEspera";
+import Entregado from "@/components/TopSection/ButtonsSections/Entregado";
+import ProveedorContent from "@/components/CenterSection/CuadroDatos/proveedorContent";
 
-const content = ClienteContent();
-const dinamicButton = ALaEspera();
+const content = ProveedorContent();
+const dynamicButton = Entregado();
 
-export default function Page5() {
+export default function Page6() {
   return (
-    <div class="page5">
+    <div class="page6">
       <div class="single-page">
         <div class="button-section">
-          <ButtonsSections dinamicButton={dinamicButton} />
+          <ButtonsSections dynamicButton={dynamicButton} />
         </div>
         <div class="top-section">
           <ResumePage content={content} />

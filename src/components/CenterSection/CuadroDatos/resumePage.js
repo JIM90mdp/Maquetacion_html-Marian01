@@ -3,7 +3,7 @@ import ResumenContent from "./resumenContent";
 
 const ResumePage = ({content}) => {
   return (
-    <div class="page4-container">
+    <div class="single-page-container">
       <div class="bullet-points">
         <div class="bullet-point">Resumen</div>
         <div class="bullet-point">Cliente</div>
