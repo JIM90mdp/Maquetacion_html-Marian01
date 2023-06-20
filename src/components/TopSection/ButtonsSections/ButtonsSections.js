@@ -27,7 +27,7 @@ const ButtonsSections = ({ dynamicButton }) => {
             color: "white",
             backgroundColor: "black",
             border: "none",
-            fontSize: "x-small",
+            fontSize: "small",
           }}
         >
           Editar pedido
@@ -37,7 +37,7 @@ const ButtonsSections = ({ dynamicButton }) => {
             color: "white",
             backgroundColor: "black",
             border: "none",
-            fontSize: "x-small",
+            fontSize: "small",
           }}
         >
           Duplicar lote

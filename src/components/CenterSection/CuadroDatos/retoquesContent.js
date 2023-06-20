@@ -195,7 +195,7 @@ const RetoquesContent = () => {
             <Button
               propsStyles={{
                 color: "white",
-                backgroundColor: "#00aaff",
+                backgroundColor: "black",
                 border: "none",
                 fontSize: "x-small",
                 width: "100px",

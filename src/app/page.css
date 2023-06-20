@@ -775,6 +775,10 @@
   margin-right: 2rem;
 }
 
+.sec-col-right-side button:hover {
+  background-color: #00aaff!important;
+}
+
 .table-container::-webkit-scrollbar,
 .table-container::-webkit-scrollbar {
   background-color: rgb(255, 255, 255);
@@ -879,21 +883,77 @@
   padding: 0.2rem 0 0 0.3rem;
 }
 
-.presupuesto_content-container .sec-column{
+.presupuesto_content-container .sec-column {
   display: flex;
   flex-direction: column;
   align-items: start;
   justify-content: space-between;
 }
 
-.presupuesto_content-container .sec-column-buttons-section{
+.presupuesto_content-container .sec-column-buttons-section {
   display: flex;
   flex-direction: column;
   align-items: start;
   justify-content: space-between;
 }
 
-.presupuesto_content-container .sec-column-buttons-section button:hover{
-  background-color: #00aaff!important;
-  color: white!important;
+.presupuesto_content-container .sec-column-buttons-section button:hover {
+  background-color: #00aaff !important;
+  color: white !important;
+}
+
+/* PAGE 9 */
+
+.archivos_content-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  width: 100%;
+  align-items: center;
+  margin: 0.6rem;
+}
+
+.archivos_content-container .column{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  
+}
+
+.archivos_content-container .first-column {
+  border-right: 2px solid #00aaff;
+}
+
+.archivos_content-container .sec-column {
+  border-right: 2px solid #00aaff;
+}
+
+.archivos_content-container .column h2 {
+  color: #00aaff;
+  margin: 0!important;
+  
+}
+
+.archivos_content-container .search-container {
+  font-size: x-small;
+  border-radius: 2rem;
+  padding: 0.5rem;
+  width: 70%;
+  height: 35px;
+  margin: 0.5rem;
+  background-color: #bee6f3;
+  display: flex; /* Definir que hace! */
+  align-items: center;
+}
+
+.search-icon {
+  margin: 8px 6px;
+  color: #ffffff;
+}
+
+.search-container .search-input {
+  width: 90% !important;
+  border: none !important; /* Saca los bordes del input */
+  background-color: transparent !important;
 }
