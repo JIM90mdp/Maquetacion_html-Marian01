@@ -1,12 +1,11 @@
 import React from "react";
 
-const PlayButton = ({ propsStyles, children }) => {
+const PlayButton = ({ children }) => {
   // console.log("propsStyles: ", propsStyles)
 
   return (
     <button class="play_button-container-button">
       {children}
-
       <svg
         class="icon-svg"
         xmlns="http://www.w3.org/2000/svg"

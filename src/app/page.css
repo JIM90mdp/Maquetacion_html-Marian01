@@ -580,30 +580,10 @@
   padding-right: 2rem;
 }
 
-/* PAGE 5 */
-/* .tab-content {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  grid-gap: 1rem;
-  border-top: none;
-  font-size: small;
-} */
-
 .tab-content .column-name-email {
   display: flex;
   flex-direction: row;
 }
-
-/* .tab-content .input-precio {
-  font-size: small;
-  border: 1px solid #009dfff9;
-  border-radius: 2rem;
-  padding: 0.5rem;
-  width: 100%;
-  margin-top: 0.5rem;
-  margin-bottom: 0.5rem;
-  background-color: white;
-} */
 
 .tab-content textarea {
   font-size: small;
@@ -694,66 +674,6 @@
   bottom: -30.5px;
 }
 
-/* .proveedor_content-container input {
-  font-size: small;
-  border: 1px solid #009dfff9;
-  border-radius: 2rem;
-  padding: 0.5rem;
-  width: 100%;
-  margin-top: 0.5rem;
-  margin-bottom: 0.5rem;
-  background-color: white;
-}
-
-.proveedor_content-container textarea {
-  font-size: small;
-  border: 1px solid #009dfff9;
-  border-radius: 1rem;
-  padding: 0.5rem;
-  width: 100%;
-  height: 150px;
-  margin-top: 0.5rem;
-  margin-bottom: 0.5rem;
-  background-color: white;
-  resize: none;
-}
-.proveedor_content-container .edit_text_button-container {
-  display: flex;
-  flex-direction: row;
-  align-items: end;
-  justify-content: end;
-  position: relative;
-  top: -50px;
-  right: 10px;
-}
-
-.edit_text_button-container .edit-text-button {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  margin: 0.1rem;
-  width: 25px;
-  height: 25px;
-  border-radius: 0.5rem;
-  background-color: #bee6f3;
-  color: black;
-  cursor: pointer;
-  appearance: none;
-  border: none;
-  padding: 0;
-}
-.b-button {
-  font-weight: 800;
-}
-
-.edit_text_button-container svg {
-  width: 20px;
-  height: 20px;
-}
-.attach-button {
-  padding: 5px;
-} */
-
 /* PAGE 7 */
 .retoques_content-container .play_button-container-button {
   display: flex;
@@ -792,6 +712,32 @@
   align-items: start;
   padding: 1rem;
 }
+
+.retoques_content-container .button-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  .icon-svg {
+    fill: #00aaff;
+  }
+  .icon-svg:hover {
+    fill: white;
+  }
+}
+
+.retoques_content-container .button-container h2 {
+  font-weight: 300;
+  margin-left: 10px;
+}
+
+/* .retoques_content-container .button-container svg {
+  fill: #00aaff !important;
+}
+
+.retoques_content-container .button-container svg:hover {
+  fill: white !important;
+} */
 
 .retoques_content-container .scroll-container {
   display: flex;

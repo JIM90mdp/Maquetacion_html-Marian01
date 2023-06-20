@@ -7,9 +7,9 @@ import Page7 from "./page7";
 export default function Home() {
   return (
     <>
-      <Page4 />
+      {/* <Page4 />
       <Page5 />
-      <Page6 />
+      <Page6 /> */}
       <Page7 />
     </>
   );
