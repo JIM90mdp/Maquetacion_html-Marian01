@@ -379,8 +379,15 @@
   margin-right: -3px;
 }
 
+.logos_section-right {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-left: 1rem;
+}
+
 .logos_section-edit {
-  margin-top: 1px;
+  margin-left: 1px;
 }
 
 .row_table-container svg {
@@ -657,21 +664,29 @@
 /* PAGE 6 */
 
 .proveedor_content-container h2 {
-    padding: 0.3rem;
-    font-size: medium;
-    margin-top: 0.2rem;
-    margin-bottom: 0.2rem;
+  padding: 0.3rem;
+  font-size: medium;
+  margin-top: 0.2rem;
+  margin-bottom: 0.2rem;
 }
 
-.proveedor_content-container .first-col input{
-    font-size: small;
-    border: 1px solid #009dfff9;
-    border-radius: 2rem;
-    padding: 0.5rem;
-    width: 100%;
-    margin-top: 0.2rem;
-    margin-bottom: 0.2rem;
-    background-color: white;
+.proveedor_content-container .third-column {
+  height: 90%;
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  justify-content: space-between;
+}
+
+.proveedor_content-container .first-col input {
+  font-size: small;
+  border: 1px solid #009dfff9;
+  border-radius: 2rem;
+  padding: 0.5rem;
+  width: 100%;
+  margin-top: 0.2rem;
+  margin-bottom: 0.2rem;
+  background-color: white;
 }
 
 .sec-column-textarea {
@@ -738,3 +753,139 @@
 .attach-button {
   padding: 5px;
 } */
+
+/* PAGE 7 */
+.retoques_content-container .play_button-container-button {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1rem;
+  background-color: white !important;
+  width: 100%;
+  height: 40px;
+  border: 2px solid #00aaff;
+  border-radius: 15px;
+  color: black;
+}
+
+.retoques_content-container .play_button-container-button:hover {
+  background-color: #00aaff !important;
+  color: white;
+  .icon-svg {
+    fill: white;
+  }
+}
+
+.retoques_content-container {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  width: 100%;
+  height: 100%;
+  align-items: center;
+  justify-content: center;
+}
+
+.retoques_content-container .column {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  padding: 1rem;
+}
+
+.retoques_content-container .scroll-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 20px;
+  width: 100%;
+  height: 85%;
+  border: 2px solid #009dfff9;
+  border-radius: 2rem;
+  font-size: small;
+  overflow: hidden;
+  box-sizing: border-box;
+}
+
+.scroll-container .table-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 99%;
+  height: 95%;
+  overflow-y: auto;
+}
+
+.scroll-container .rows-table {
+  display: flex;
+  flex-direction: column;
+  width: 70%;
+}
+
+.sec-col-right-side {
+  width: 20%;
+  height: 100%;
+  padding-right: 1rem;
+  margin-right: 2rem;
+}
+
+.table-container::-webkit-scrollbar,
+.table-container::-webkit-scrollbar {
+  background-color: rgb(255, 255, 255);
+  width: 12px;
+  margin-right: 30px;
+  position: absolute !important;
+}
+
+.table-container::-webkit-scrollbar-track,
+.table-container::-webkit-scrollbar-track {
+  background-color: black;
+  -webkit-box-shadow: inset 0 0 6px black;
+  border-radius: 10px;
+}
+
+.table-container::-webkit-scrollbar-thumb,
+.table-container::-webkit-scrollbar-thumb {
+  background-color: white;
+  border-radius: 10px;
+  -webkit-box-shadow: inset 0 0 6px white;
+}
+
+.row_table_center_section-container {
+  padding: 0.5rem;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+  width: 100%;
+  height: 100%;
+}
+
+.row_table_center_section-container .logos-interline {
+  width: 2px;
+  height: 100%;
+  color: #00aaff;
+}
+
+.row_table_center_section-container svg {
+  margin: 0.2rem;
+}
+
+.row_table_center_section-container .cuadriculado {
+  background-image: linear-gradient(#e0e0e0 1px, transparent 1px),
+    linear-gradient(90deg, #e0e0e0 1px, transparent 1px);
+  background-size: 5px 5px;
+  background-color: #b6b3b3;
+  border-radius: 5px;
+  height: 30px;
+  width: 30px;
+  grid-column: 1;
+}
+
+.bottom_section-right-page7 {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: start;
+  height: 100%;
+}

@@ -2,18 +2,18 @@ import ButtonsSections from "@/components/TopSection/ButtonsSections/ButtonsSect
 
 import ResumePage from "@/components/CenterSection/CuadroDatos/resumePage";
 import ResumenPedido from "@/components/CenterSection/resumenPedido/resumenPedido";
-import LeftBottomSection from "@/components/BottomSection/LeftBottomSection/leftBottomSection";
 import ImagenSection from "@/components/BottomSection/Imagenes/imagenSection";
-import ImagenEjemplo from "@/components/BottomSection/ImagenesEjemplo/ImagenesEjemplo";
-import ClienteContent from "@/components/CenterSection/CuadroDatos/clienteContent";
-import ALaEspera from "@/components/TopSection/ButtonsSections/ALaEspera";
+import Aprobado from "@/components/TopSection/ButtonsSections/Aprobado";
+import RetoquesContent from "@/components/CenterSection/CuadroDatos/retoquesContent";
+import LeftBottomSectionPage7 from "@/components/BottomSection/LeftBottomSection/leftBottomSectionPage7";
+import ImagenEjemploPage7 from "@/components/BottomSection/ImagenesEjemplo/ImagenesEjemploPage7";
 
-const content = ClienteContent();
-const dynamicButton = ALaEspera();
+const content = RetoquesContent();
+const dynamicButton = Aprobado();
 
-export default function Page5() {
+export default function Page7() {
   return (
-    <div class="page5">
+    <div class="page7">
       <div class="single-page">
         <div class="button-section">
           <ButtonsSections dynamicButton={dynamicButton} />
@@ -24,11 +24,11 @@ export default function Page5() {
         </div>
         <div class="bottom-section">
           <div class="bottom_section-left-column">
-            <LeftBottomSection />
+            <LeftBottomSectionPage7 />
             <ImagenSection />
           </div>
           <div class="bottom_section-right-column">
-            <ImagenEjemplo />
+            <ImagenEjemploPage7 />
           </div>
         </div>
       </div>

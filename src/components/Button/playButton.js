@@ -1,19 +1,24 @@
-import React from 'react'
+import React from "react";
 
 const PlayButton = ({ propsStyles, children }) => {
-  const buttonStyles = {
-    padding: "0.4rem",
-    paddingRight: "1rem",
-    paddingLeft: "1rem",
-    border: "none",
-    margin: "0.5rem",
-    borderRadius: "0.5rem",
-    cursor: "pointer",
-    ...propsStyles,
-  };
   // console.log("propsStyles: ", propsStyles)
 
-  return <button style={buttonStyles}>{children}</button>;
-}
+  return (
+    <button class="play_button-container-button">
+      {children}
 
-export default PlayButton
+      <svg
+        class="icon-svg"
+        xmlns="http://www.w3.org/2000/svg"
+        viewBox="0 0 24 24"
+        width="30px"
+        height="30px"
+        fill="#00aaff"
+      >
+        <polygon points="5 3 19 12 5 21"></polygon>
+      </svg>
+    </button>
+  );
+};
+
+export default PlayButton;

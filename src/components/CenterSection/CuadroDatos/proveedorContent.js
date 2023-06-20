@@ -1,3 +1,4 @@
+import Button from "@/components/Button/Button";
 import React from "react";
 
 const ProveedorContent = () => {
@@ -200,13 +201,50 @@ const ProveedorContent = () => {
           </div>
         </div>
       </div>
-      <div class="column">
-        <h2>Retoques</h2>
-        <p>Siluetado Nv.3</p>
-        <p>
-          Retoque moda <span class="celeste">Básico</span>
-        </p>
-        <p>Procesado Raw</p>
+      <div class="column third-column">
+        <div class="top-third-column">
+          <h2>Retoques</h2>
+          <p>Siluetado Nv.3</p>
+          <p>
+            Retoque moda <span class="celeste">Básico</span>
+          </p>
+          <p>Procesado Raw</p>
+        </div>
+        <div class="bottom-third-column">
+          <Button
+            propsStyles={{
+              color: "white",
+              backgroundColor: "#149BD8",
+              border: "none",
+              fontSize: "x-small",
+              width: "150px"
+            }}
+          >
+            Aprobar-enviar prov.
+          </Button>
+          <Button
+            propsStyles={{
+              color: "white",
+              backgroundColor: "black",
+              border: "none",
+              fontSize: "x-small",
+              width: "150px"
+            }}
+          >
+            Terminar-enviar client.
+          </Button>
+          <Button
+            propsStyles={{
+              color: "white",
+              backgroundColor: "#851618",
+              border: "none",
+              fontSize: "x-small",
+              width: "150px"
+            }}
+          >
+            Enviar de nuevo prov.
+          </Button>
+        </div>
       </div>
     </div>
   );
