@@ -1,4 +1,5 @@
 import "./page.css";
+import Page10 from "./page10";
 import Page4 from "./page4";
 import Page5 from "./page5";
 import Page6 from "./page6";
@@ -15,6 +16,7 @@ export default function Home() {
       <Page7 />
       <Page8 />
       <Page9 />
+      <Page10 />
     </>
   );
 }
