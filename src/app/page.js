@@ -1,5 +1,8 @@
 import "./page.css";
 import Page10 from "./page10";
+import Page11 from "./page11";
+import Page12 from "./page12";
+import Page13 from "./page13";
 import Page4 from "./page4";
 import Page5 from "./page5";
 import Page6 from "./page6";
@@ -17,6 +20,11 @@ export default function Home() {
       <Page8 />
       <Page9 />
       <Page10 />
+      <Page11 />
+      <Page12 />
+      <Page13 title="Facturación"/>
+      <Page13 title="Albarán"/>
+      <Page13 title="Presupuesto"/>
     </>
   );
 }

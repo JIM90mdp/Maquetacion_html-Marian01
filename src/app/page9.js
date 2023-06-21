@@ -13,7 +13,7 @@ const dynamicButton = Cerrado();
 
 export default function Page9() {
   return (
-    <div class="page6">
+    <div class="page9">
       <div class="single-page">
         <div class="button-section">
           <ButtonsSections dynamicButton={dynamicButton} />

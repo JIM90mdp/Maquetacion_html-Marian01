@@ -13,7 +13,7 @@ const dynamicButton = Aprobado();
 
 export default function Page10() {
   return (
-    <div class="page7">
+    <div class="page10">
       <div class="single-page">
         <div class="button-section">
           <ButtonsSections dynamicButton={dynamicButton} />

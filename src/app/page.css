@@ -983,7 +983,6 @@
   box-sizing: border-box;
 }
 
-
 .inputs-container-page10 select {
   font-size: small;
   border: 1px solid #009dfff9;
@@ -1020,3 +1019,521 @@
   color: black;
 }
 
+/* PAGE 11 */
+
+.page11 {
+  background-color: white;
+  width: 100%;
+  height: 100%;
+}
+.page11 .single-page {
+  padding: 1rem;
+  width: 100%;
+  height: 100%;
+  align-items: start;
+  justify-content: space-between;
+}
+
+.page11 .protocolos-title {
+  padding-left: 2.5rem;
+  font-size: x-large;
+  font-weight: 300;
+}
+.page11 .left-section {
+  display: flex;
+  flex-direction: row;
+
+  margin: 1rem;
+  width: 80%;
+  height: 100%;
+}
+
+.page11 .data-container {
+  padding-left: 2rem;
+  padding-right: 2rem;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  width: 45%;
+  height: 100%;
+}
+
+.page11 .data {
+  background-color: rgba(236, 236, 236, 0.786);
+  border: 2px solid #009dfff9;
+  border-radius: 1rem;
+  overflow: hidden;
+  box-sizing: border-box;
+  font-size: small;
+}
+
+.page11 .data-header {
+  background-color: #009dfff9;
+  color: #fff;
+  padding: 10px;
+  text-align: center;
+  font-size: 18px;
+}
+.page11 .search-container {
+  padding-left: 0.5rem;
+  font-size: x-small;
+  border-radius: 0.5rem;
+  height: 30px;
+  width: 95%;
+  margin: 0 1rem 0 1rem;
+  background-color: #bee6f3;
+  display: flex; /* Definir que hace! */
+  align-items: center;
+  justify-content: space-between;
+}
+.page11 .search-container .search-input {
+  border-radius: 0.5rem;
+  height: 30px;
+  width: 90% !important;
+  border: none !important; /* Saca los bordes del input */
+  background-color: transparent !important;
+}
+.page11 h2 {
+  padding: 0.3rem;
+  font-size: medium;
+  margin: 0.5rem 1rem 0.5rem 1rem;
+}
+
+.page11 input[type="text"] {
+  font-size: small;
+  border-radius: 0.5rem;
+  height: 30px;
+  width: 95%;
+  margin: 0 1rem 0 1rem;
+  background-color: #bee6f3;
+  border: none;
+}
+
+.page11 .div-interno {
+  padding: 1rem;
+}
+
+.page11 select {
+  font-size: small;
+  border: 1px solid #009dfff9;
+  border-radius: 0.5rem;
+  height: 30px;
+  width: 150px;
+  margin: 0 1rem 0 1rem;
+  padding: 0 0.2rem 0 0.2rem;
+  background-color: white;
+  appearance: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  background-image: url("data:image/svg+xml;charset=utf-8,%3Csvg xmlns='http://www.w3.org/2000/svg' width='12' height='8' viewBox='0 0 12 8'%3E%3Cpath fill='%23009dfff9' d='M0 0l6 8 6-8H0z'/%3E%3C/svg%3E");
+  background-repeat: no-repeat;
+  background-position: right 0.5rem center;
+}
+
+.page11 .third-row {
+  display: flex;
+  flex-direction: row;
+  align-items: start;
+  justify-content: start;
+}
+
+.page11 .precio-container,
+.tiempo-container,
+.coste-container {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  justify-content: start;
+  width: auto;
+  height: auto;
+}
+
+.envio-container {
+  width: auto;
+}
+.page11 .tiempo-container,
+.descripción-container {
+  width: auto;
+  margin-left: 2rem;
+}
+.page11 .prueba-container {
+  width: auto;
+  margin-left: 4rem;
+}
+
+.page11 .buttons-section {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  justify-content: start;
+  width: 20%;
+  height: 100%;
+}
+
+.page11 .bottom-section {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  justify-content: start;
+  width: 100%;
+  height: auto;
+}
+.page11 .textarea-container {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  padding: 0.5rem 0 0 1rem;
+}
+
+.page11 .textarea-container h2 {
+  padding: 0;
+  margin: 1rem 0 0.5rem 0;
+}
+
+.page11 .textarea-container textarea {
+  font-size: small;
+  border: none;
+  border-radius: 0.5rem;
+  padding: 0.5rem 0 0.5rem 1rem;
+  width: 400px;
+  height: 130px;
+  background-color: white;
+  resize: none;
+}
+
+.page11 .edit_text_button-container {
+  display: flex;
+  flex-direction: row;
+  align-items: end;
+  justify-content: end;
+  position: absolute;
+  bottom: 0px;
+  right: 10px;
+}
+
+.page11 .fecha-container {
+  margin: 0.5rem 0 0 0;
+}
+
+/* PAGE 12 */
+
+.page12 {
+  padding: 2rem;
+  background-color: white;
+  width: 100%;
+  height: 100%;
+}
+.page12 .single-page {
+  padding: 1rem;
+  width: fit-content;
+  height: 100%;
+  align-items: start;
+  justify-content: space-between;
+  display: flex;
+  flex-direction: row;
+  align-items: start;
+  justify-content: start;
+}
+
+.page12 .left-section {
+  width: 25%;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+.page12 .col {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: start;
+}
+
+.page12 .square {
+  font-size: 70px;
+  font-weight: 100;
+  width: 120px;
+  height: 120px;
+  border: none;
+  border-radius: 20px;
+  background-color: black;
+  color: #00aaff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.page12 .buttons-section {
+  margin: 1rem 0 0 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.page12 .single-page-container {
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+  max-width: 1000px;
+  font-size: 1rem;
+  padding: 0 1rem 1rem 1rem;
+  margin-left: 3rem;
+}
+
+.page12 .single-page-container .bullet-points {
+  display: grid;
+  grid-template-columns: 1fr 1fr 4fr 1.5fr;
+  width: 100%;
+}
+
+.page12 .single-page-container .bullet-point {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  background-color: black;
+  margin-right: 0.1rem;
+  padding: 0.6rem;
+  text-align: center;
+  border-radius: 1rem 1rem 0 0;
+}
+
+.page12 .content-table {
+  width: 900px;
+  height: 445px;
+  font-size: small;
+}
+
+.page12 .first-row {
+  align-items: center;
+  text-align: center;
+  display: grid;
+  grid-template-rows: 40px;
+  grid-template-columns: 1fr 1fr 4fr 1.5fr;
+  padding: 0.1rem;
+  width: 100%;
+  height: 40px;
+  background-color: #d6eef6;
+  color: black;
+}
+
+.page12 .sec-row {
+  align-items: center;
+  text-align: center;
+  display: grid;
+  grid-template-rows: 40px;
+  grid-template-columns: 1fr 1fr 4fr 1.5fr;
+  padding: 0.1rem;
+  width: 100%;
+  height: 40px;
+  background-color: #e8f5fa;
+  color: black;
+}
+
+.page12 .right-section {
+  display: flex;
+  flex-direction: column;
+  align-items: end;
+}
+
+.page12 .paginator {
+  margin: 1rem;
+  position: relative;
+  background-color: #d6eef6;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 5px;
+  width: 380px;
+  border-radius: 15px;
+}
+
+.paginator-button {
+  background-color: transparent;
+  border: none;
+  color: black;
+  cursor: pointer;
+}
+
+.paginator-numbers {
+  display: flex;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  gap: 5px;
+}
+
+.paginator-number {
+  background-color: white;
+  width: 30px;
+  height: 30px;
+  color: black;
+  padding-top: 5px;
+}
+
+/* PAGE 13 */
+
+.page13 {
+  background-color: white;
+  width: 100%;
+  height: 100%;
+}
+
+.page13 .single-page {
+  padding: 1rem;
+  width: 100%;
+  height: 100%;
+  align-items: start;
+  justify-content: space-between;
+}
+
+.page13 .title {
+  font-size: x-large;
+  font-weight: 300;
+}
+
+.page13 .left-section {
+  display: flex;
+  flex-direction: row;
+  margin: 1rem;
+  width: 80%;
+  height: 100%;
+}
+
+.page13 .data-container {
+  height: 100%;
+}
+
+.page13 .data {
+  background-color: rgba(236, 236, 236, 0.786);
+  border: 2px solid #009dfff9;
+  border-radius: 1rem;
+  overflow: hidden;
+  box-sizing: border-box;
+  font-size: small;
+}
+
+.page13 h2 {
+  font-size: medium;
+  margin: 0.5rem 1rem 0.5rem 1rem;
+}
+
+.page13 .data-header {
+  background-color: #009dfff9;
+  color: #fff;
+  padding: 10px;
+  text-align: center;
+  font-size: 18px;
+}
+.page13 .search-container {
+  margin-left: 1rem;
+  padding-left: 1rem;
+  font-size: x-small;
+  border-radius: 0.5rem;
+  height: 30px;
+  width: 95%;
+  margin: 0 1rem 0 1rem;
+  background-color: #bee6f3;
+  display: flex; /* Definir que hace! */
+  align-items: center;
+  justify-content: space-between;
+}
+.page13 .search-container .search-input {
+  border-radius: 0.5rem;
+  height: 30px;
+  width: 90% !important;
+  border: none !important; /* Saca los bordes del input */
+  background-color: transparent !important;
+}
+
+.page13 input[type="text"] {
+  font-size: small;
+  border-radius: 0.5rem;
+  height: 30px;
+  width: 95%;
+  margin: 0 1rem 0 1rem;
+  background-color: #bee6f3;
+  border: none;
+}
+
+.page13 .div-interno {
+  padding: 1rem;
+}
+
+.page13 select {
+  margin-left: 1rem;
+  padding: 0.5rem;
+  font-size: small;
+  border: 1px solid #009dfff9;
+  border-radius: 0.5rem;
+  height: 30px;
+  width: 95%;
+  background-color: white;
+  appearance: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  background-image: url("data:image/svg+xml;charset=utf-8,%3Csvg xmlns='http://www.w3.org/2000/svg' width='12' height='8' viewBox='0 0 12 8'%3E%3Cpath fill='%23009dfff9' d='M0 0l6 8 6-8H0z'/%3E%3C/svg%3E");
+  background-repeat: no-repeat;
+  background-position: right 0.5rem center;
+}
+
+.page13 .third-row {
+  padding-right: 1rem;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: start;
+  justify-content: space-between;
+}
+
+.page13 .buttons-section {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  justify-content: start;
+  width: 20%;
+  height: 100%;
+}
+
+.page13 .bottom-section {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  justify-content: start;
+  width: 100%;
+  height: auto;
+}
+.page13 .textarea-container {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  padding: 0.5rem 0 0 1rem;
+}
+
+.page13 .textarea-container h2 {
+  padding: 0;
+  margin: 1rem 0 0.5rem 0;
+}
+
+.page13 .textarea-container textarea {
+  font-size: small;
+  border: none;
+  border-radius: 0.5rem;
+  padding: 0.5rem 0 0.5rem 1rem;
+  width: 400px;
+  height: 130px;
+  background-color: white;
+  resize: none;
+}
+
+.page13 .edit_text_button-container {
+  display: flex;
+  flex-direction: row;
+  align-items: end;
+  justify-content: end;
+  position: absolute;
+  bottom: 5px;
+  right: 50px;
+}
+
+.page13 .fecha-container {
+  margin: 0.5rem 0 0 0;
+}

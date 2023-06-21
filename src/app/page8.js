@@ -13,7 +13,7 @@ const dynamicButton = Denegado();
 
 export default function Page8() {
   return (
-    <div class="page6">
+    <div class="page8">
       <div class="single-page">
         <div class="button-section">
           <ButtonsSections dynamicButton={dynamicButton} />
