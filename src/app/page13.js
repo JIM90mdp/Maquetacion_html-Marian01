@@ -244,7 +244,7 @@ export default function Page13({ title }) {
           <div class="buttons-section">
             <Button
               propsStyles={{
-                width: "110px",
+                width: "150px",
                 color: "white",
                 backgroundColor: "black",
                 border: "none",
@@ -255,7 +255,7 @@ export default function Page13({ title }) {
             </Button>
             <Button
               propsStyles={{
-                width: "110px",
+                width: "150px",
                 color: "white",
                 backgroundColor: "#00aaff",
                 border: "none",
@@ -266,7 +266,7 @@ export default function Page13({ title }) {
             </Button>
             <Button
               propsStyles={{
-                width: "110px",
+                width: "150px",
                 color: "white",
                 backgroundColor: "#234f2b",
                 border: "none",
@@ -277,7 +277,7 @@ export default function Page13({ title }) {
             </Button>
             <Button
               propsStyles={{
-                width: "110px",
+                width: "150px",
                 color: "white",
                 backgroundColor: "#851618",
                 border: "none",
