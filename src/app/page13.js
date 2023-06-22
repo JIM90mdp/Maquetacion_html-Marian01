@@ -251,7 +251,7 @@ export default function Page13({ title }) {
                 fontSize: "small",
               }}
             >
-              Duplicar
+              Cerrar
             </Button>
             <Button
               propsStyles={{
@@ -262,7 +262,7 @@ export default function Page13({ title }) {
                 fontSize: "small",
               }}
             >
-              Crear
+              Imprimir
             </Button>
             <Button
               propsStyles={{
@@ -273,7 +273,7 @@ export default function Page13({ title }) {
                 fontSize: "small",
               }}
             >
-              Guardar
+              Enviar a cliente
             </Button>
             <Button
               propsStyles={{
@@ -284,7 +284,7 @@ export default function Page13({ title }) {
                 fontSize: "small",
               }}
             >
-              Enviar prov.
+              Descargar PDF
             </Button>
           </div>
         </div>
