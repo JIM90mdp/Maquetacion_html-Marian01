@@ -3,6 +3,7 @@ import Page10 from "./page10";
 import Page11 from "./page11";
 import Page12 from "./page12";
 import Page13 from "./page13";
+import Page14 from "./page14";
 import Page4 from "./page4";
 import Page5 from "./page5";
 import Page6 from "./page6";
@@ -25,6 +26,7 @@ export default function Home() {
       <Page13 title="Facturación"/>
       <Page13 title="Albarán"/>
       <Page13 title="Presupuesto"/>
+      <Page14 />
     </>
   );
 }
