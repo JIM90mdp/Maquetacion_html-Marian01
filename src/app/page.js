@@ -4,6 +4,7 @@ import Page11 from "./page11";
 import Page12 from "./page12";
 import Page13 from "./page13";
 import Page14 from "./page14";
+import Page3 from "./page3";
 import Page4 from "./page4";
 import Page5 from "./page5";
 import Page6 from "./page6";
@@ -14,6 +15,7 @@ import Page9 from "./page9";
 export default function Home() {
   return (
     <>
+      {/* <Page3 /> */}
       <Page4 />
       <Page5 />
       <Page6 />
@@ -23,9 +25,9 @@ export default function Home() {
       <Page10 />
       <Page11 />
       <Page12 />
-      <Page13 title="Facturación"/>
-      <Page13 title="Albarán"/>
-      <Page13 title="Presupuesto"/>
+      <Page13 title="Facturación" />
+      <Page13 title="Albarán" />
+      <Page13 title="Presupuesto" />
       <Page14 />
     </>
   );

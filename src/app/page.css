@@ -1,3 +1,165 @@
+/* PAGE 3 */
+.page3 {
+  width: 100%;
+  height: 100%;
+}
+
+.page3 .single-page {
+  display: grid;
+  grid-template-columns: 1.15fr 0.85fr;
+  padding: 2rem;
+}
+
+.page3 .col {
+  padding: 1rem;
+}
+
+.page3 .search-container {
+  padding-left: 0.5rem;
+  font-size: x-small;
+  border-radius: 0.5rem;
+  height: 30px;
+  width: 95%;
+  margin: 0 1rem 0 1rem;
+  background-color: #bee6f3;
+  display: flex; /* Definir que hace! */
+  align-items: center;
+  justify-content: space-between;
+}
+.page3 .search-container .search-input {
+  border-radius: 0.5rem;
+  height: 30px;
+  width: 95% !important;
+  border: none !important; /* Saca los bordes del input */
+  background-color: transparent !important;
+}
+.page3 h2 {
+  padding: 0.3rem;
+  font-size: medium;
+  margin: 0.5rem 1rem 0.5rem 1rem;
+}
+
+.page3 input[type="text"] {
+  font-size: small;
+  border-radius: 0.5rem;
+  height: 30px;
+  width: 95%;
+  margin: 0 1rem 0 1rem;
+  background-color: #bee6f3;
+  border: none;
+}
+
+.page3 .div-interno {
+  padding: 1rem;
+}
+
+.page3 select {
+  font-size: small;
+  border: 1px solid #009dfff9;
+  border-radius: 0.5rem;
+  height: 30px;
+  width: 150px;
+  margin: 0 1rem 0 1rem;
+  padding: 0 0.2rem 0 0.2rem;
+  background-color: white;
+  appearance: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  background-image: url("data:image/svg+xml;charset=utf-8,%3Csvg xmlns='http://www.w3.org/2000/svg' width='12' height='8' viewBox='0 0 12 8'%3E%3Cpath fill='%23009dfff9' d='M0 0l6 8 6-8H0z'/%3E%3C/svg%3E");
+  background-repeat: no-repeat;
+  background-position: right 0.5rem center;
+}
+
+.page3 .first-col .data {
+  border: 2px solid #009dfff9;
+  border-radius: 2rem;
+  width: 642px;
+  height: 400px;
+  overflow: hidden;
+  box-sizing: border-box;
+  font-size: small;
+}
+
+.page3 .first-col .data-header {
+  background-color: #009dfff9;
+  color: #fff;
+  padding: 10px;
+  text-align: center;
+  font-size: 18px;
+}
+
+.page3 .data-container {
+  display: grid;
+  grid-template-columns: 1.15fr 1fr;
+  align-items: flex-start;
+  width: 100%;
+  font-size: 1rem;
+  padding-left: 2rem;
+  padding-right: 2rem;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+
+.page3 .first-col .third-row {
+  display: flex;
+  flex-direction: row;
+}
+
+.page3 .first-col .last-row select {
+  width: 95%;
+}
+
+.page3 .first-col .right-section {
+  display: flex;
+  flex-direction: column;
+  align-items: end;
+  justify-content: space-between;
+  width: 100%;
+  height: 100%;
+  padding-top: 2rem;
+}
+
+.page3 .first-col .right-section .right_section-top-section {
+  display: flex;
+  flex-direction: column;
+  align-items: end;
+  width: 100%;
+  height: 100%;
+}
+
+.page3 .first-col .right-section .checkbox-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  padding-left: 2rem;
+  padding-top: 1rem;
+  width: 100%;
+}
+
+.page3 .sec-col .data {
+  border: 2px solid #009dfff9;
+  border-radius: 2rem;
+  width: 547px;
+  height: 400px;
+  overflow: hidden;
+  box-sizing: border-box;
+  font-size: small;
+}
+
+.page3 .sec-col .data-header {
+  background-color: #009dfff9;
+  color: #fff;
+  padding: 10px;
+  text-align: center;
+  font-size: 18px;
+}
+
+.page3 .sec-col .data-container {
+  display: grid;
+  grid-template-columns: 3fr 1fr 1fr 1fr;
+}
+
 /* PAGINA 4 */
 
 .single-page {
@@ -731,7 +893,6 @@
   margin-left: 10px;
 }
 
-
 .retoques_content-container .scroll-container {
   display: flex;
   flex-direction: row;
@@ -1045,8 +1206,6 @@
   padding-right: 2rem;
   padding-top: 1rem;
   padding-bottom: 1rem;
-  width: 45%;
-  height: 100%;
 }
 
 .page11 .data {
@@ -1056,6 +1215,7 @@
   overflow: hidden;
   box-sizing: border-box;
   font-size: small;
+  width: 630px;
 }
 
 .page11 .data-header {
@@ -1521,8 +1681,8 @@
   align-items: end;
   justify-content: end;
   position: absolute;
-  bottom: 5px;
-  right: 50px;
+  bottom: 0;
+  right: 69px;
 }
 
 .page13 .fecha-container {
@@ -1705,7 +1865,7 @@ input[type="checkbox"] {
   justify-content: space-between;
 }
 
-.page14 .retoques-row  {
+.page14 .retoques-row {
   padding: 0.5rem 1rem 0.5rem 1rem;
   display: flex;
   flex-direction: row;
@@ -1713,8 +1873,7 @@ input[type="checkbox"] {
   justify-content: space-between;
 }
 
-
-.page14 .retoques-row  h2 {
+.page14 .retoques-row h2 {
   font-size: large;
 }
 
