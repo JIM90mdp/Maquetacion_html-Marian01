@@ -15,7 +15,7 @@ import Page9 from "./page9";
 export default function Home() {
   return (
     <>
-      {/* <Page3 /> */}
+      <Page3 />
       <Page4 />
       <Page5 />
       <Page6 />
