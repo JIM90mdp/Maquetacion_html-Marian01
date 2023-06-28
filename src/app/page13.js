@@ -8,7 +8,6 @@ export default function Page13({ title }) {
         <div class="left-section">
           <div class="data-container">
             <div class="data">
-              <div class="data-header">CLIENTES</div>
               <div class="div-interno">
                 <h2>Usuario</h2>
                 <div class="search-container">
@@ -65,7 +64,7 @@ export default function Page13({ title }) {
                   </option>
                 </select>
                 <div class="textarea-container">
-                  <h2>Detalles</h2>
+                  <h2>Cabeza Factura</h2>
                   <div class="edit_text_button-container">
                     <button class="edit-text-button b-button">B</button>
                     <button class="edit-text-button">/</button>
@@ -152,7 +151,7 @@ export default function Page13({ title }) {
                   ></textarea>
                 </div>
                 <div class="textarea-container">
-                  <h2>Detalles</h2>
+                  <h2>Pie Factura</h2>
                   <div class="edit_text_button-container">
                     <button class="edit-text-button b-button">B</button>
                     <button class="edit-text-button">/</button>

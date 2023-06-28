@@ -14,7 +14,7 @@ const ClienteContent = () => {
           <p>Email:</p>
           <p>monodemomo@gmail.com</p>
         </div>
-        <Button>Ir al cliente</Button>
+        <Button>Ir a cliente</Button>
         <h2>Comentarios cliente</h2>
         <p>
           {" "}

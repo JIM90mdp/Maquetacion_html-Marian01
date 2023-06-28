@@ -11,7 +11,7 @@ const ResumenContent = () => {
         <select>
           <option>Seleccionar...</option>
         </select>
-        <Button>Ir al protocolo</Button>
+        <Button>Ir a protocolo</Button>
         <input type="text" placeholder="Nro de archivos a subir..." />
         <input type="text" placeholder="Nro de archivos finales..." />
         <h2>Tiempo de ejecucion</h2>

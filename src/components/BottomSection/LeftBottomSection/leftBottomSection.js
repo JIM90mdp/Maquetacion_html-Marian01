@@ -15,10 +15,10 @@ const LeftBottomSection = () => {
         >
           NUEVO LOTE
         </Button>
-        <div>
-          <p>Lote 1 : Lorem Isum Lorem Isum</p>
-          <p>Lote 2 : Lorem Isum Lorem Isum</p>
-          <p>Lote 3 : Lorem Isum Lorem Isum</p>
+        <div class="lotes-left_bottom_section">
+          <a href="">Lote 1 : Lorem Isum Lorem Isum</a>
+          <a href="">Lote 2 : Lorem Isum Lorem Isum</a>
+          <a href="">Lote 3 : Lorem Isum Lorem Isum</a>
         </div>
       </div>
       <Button

@@ -42,7 +42,7 @@ export default function Page11() {
                   </svg>
                   <input class="search-input" type="search"></input>
                 </div>
-                <h2>Nombre</h2>
+                <h2>Nombre pedido</h2>
                 <input type="text"></input>
                 <div class="third-row">
                   <div class="precio-container">
@@ -59,7 +59,7 @@ export default function Page11() {
                   </div>
                 </div>
                 <h2>Recargo de urgencia</h2>
-                <select>
+                <select class="recargo-input">
                   <option disabled selected>
                     Seleccionar...
                   </option>
@@ -137,7 +137,7 @@ export default function Page11() {
             <div class="data">
               <div class="data-header">CLIENTES</div>
               <div class="div-interno">
-                <h2>Usuario</h2>
+                <h2>Proveedor</h2>
                 <div class="search-container">
                 <svg
                     viewBox="0 0 24 24"
@@ -169,7 +169,7 @@ export default function Page11() {
                   </svg>
                   <input class="search-input" type="search"></input>
                 </div>
-                <h2>Nombre</h2>
+                <h2>Código</h2>
                 <input type="text"></input>
                 <div class="third-row">
                   <div class="precio-container">
